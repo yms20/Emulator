@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmulatorAPI.Achse">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAEAAAAAAAAAIAAgACAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Achse.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Achsen" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Achse.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Aggregat">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAIAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Aggregates\Aggregat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Geber">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EmulatorAPI.Geber.Extreme">
+        <TypeIdentifier>
+          <NewMemberFileName>Aggregates\Geber.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAQAAQAAEAAEIADAAAAEAQAABAAAABAAAA=</HashCode>
+      <FileName>Aggregates\Geber.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Rect" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAACAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Aggregates\Geber.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Getriebe">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="EmulatorAPI.Aggregat" FixedFromPoint="true">
+      <Path>
+        <Point X="6" Y="2.791" />
+        <Point X="6" Y="3.45" />
+        <Point X="4.25" Y="3.45" />
+        <Point X="4.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>Aggregates\Getriebe.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Motor">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="EmulatorAPI.Aggregat" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.625" Y="2.791" />
+        <Point X="6.625" Y="3.625" />
+        <Point X="6.25" Y="3.625" />
+        <Point X="6.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAiEAAAQMAAAAAAAAAAAAAAAADCAAAQAAAAgAAE=</HashCode>
+      <FileName>Aggregates\Motor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.Signal">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EmulatorAPI.Signal.ruleType">
+        <TypeIdentifier>
+          <NewMemberFileName>Aggregates\Signal.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAQQAAAAAAAAAAAAAAKEACAAAAAACAAAEAAAAAAAAA=</HashCode>
+      <FileName>Aggregates\Signal.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.XML" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAEAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>XML.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmulatorAPI.My.MySettings" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="EmulatorAPI.My.Resources.Resources" Collapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="EmulatorAPI.My.MySettingsProperty" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

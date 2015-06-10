@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<Achsen>
+<Achsen>
+<Achse name="Vordere Tür" id="0">
+  <motor name="Motor" id="1" rpm_current="0" rpm_target="60" rpm_max="60" rpm_max_ramp="50" direction="0" />
+  <getriebe name="Getriebe" id="2" traslation="5000" />
+  <geber name="Geber" id="3" location="1900" ref_location="1900" min="1900" max="8100">
+    <pos>
+      <X>550</X>
+      <Y>50</Y>
+    </pos>
+    <scale>0.005</scale>
+    <angle>-90</angle>
+    <form>
+      <FillMode>Alternate</FillMode>
+    </form>
+    <plot>true</plot>
+  </geber>
+  <signals>
+    <Signal name="Referenz Sensor" id="4">
+      <rule>between</rule>
+      <value>8100</value>
+      <value2>8200</value2>
+      <isTriggered>false</isTriggered>
+    </Signal>
+  </signals>
+</Achse>
+
+
+<Achse name="Hintere Tür" id="0">
+  <motor name="Motor" id="1" rpm_current="0" rpm_target="60" rpm_max="60" rpm_max_ramp="50" direction="0" />
+  <getriebe name="Getriebe" id="2" traslation="1500" />
+  <geber name="Geber" id="3" location="350" ref_location="350" min="350" max="1560">
+    <pos>
+      <X>510</X>
+      <Y>15</Y>
+    </pos>
+    <scale>0.03</scale>
+    <angle>90</angle>
+    <form>
+      <FillMode>Alternate</FillMode>
+    </form>
+    <plot>true</plot>
+  </geber>
+  <signals>
+    <Signal name="Referenz Sensor" id="4">
+      <rule>between</rule>
+      <value>8100</value>
+      <value2>8200</value2>
+      <isTriggered>false</isTriggered>
+    </Signal>
+  </signals>
+</Achse>
+
+<Achse name="X Einlagerung" id="0">
+  <motor name="Motor" id="1" rpm_current="0" rpm_target="60" rpm_max="60" rpm_max_ramp="150" direction="0" />
+  <getriebe name="Getriebe" id="2" traslation="30000" />
+  <geber name="Geber" id="3" location="10000" ref_location="10000" min="9500" max="156000">
+    <pos>
+      <X>20</X>
+      <Y>25</Y>
+    </pos>
+    <scale>0.0032</scale>
+    <angle>0</angle>
+    <form>
+      <FillMode>Alternate</FillMode>
+    </form>
+    <plot>true</plot>
+	<subAchse name="Z Pusher" id="0">
+	  <motor name="Motor" id="1" rpm_current="0" rpm_target="60" rpm_max="60" rpm_max_ramp="50" direction="0" />
+	  <getriebe name="Getriebe" id="2" traslation="30000" />
+	  <geber name="Geber" id="3" location="2900" ref_location="2900" min="2500" max="27000">
+		<pos>
+		  <X>-10</X>
+		  <Y>0</Y>
+		</pos>
+		<scale>0.0027</scale>
+		<angle>100</angle>
+		<form>
+		  <FillMode>Alternate</FillMode>
+		</form>
+		<plot>true</plot>
+	  </geber>
+	  <signals>
+		<Signal name="Z Ref" id="4">
+		  <rule>between</rule>
+		  <value>8100</value>
+		  <value2>8200</value2>
+		  <isTriggered>false</isTriggered>
+		</Signal>
+	  </signals>
+	</subAchse>
+  </geber>
+  <signals>
+    <Signal name="ref 1000" id="4">
+      <rule>between</rule>
+      <value>10000</value>
+      <value2>10100</value2>
+      <isTriggered>false</isTriggered>
+    </Signal>
+  </signals>
+</Achse>
+
+<Achse name="Rechte X Achse" id="0">
+  <motor name="Motor" id="1" rpm_current="0" rpm_target="60" rpm_max="60" rpm_max_ramp="250" direction="0" />
+  <getriebe name="Getriebe" id="2" traslation="10000" />
+  <geber name="Geber" id="3" location="250" ref_location="250" min="0" max="28000">
+    <pos>
+      <X>10</X>
+      <Y>100</Y>
+    </pos>
+    <scale>0.021</scale>
+    <angle>0</angle>
+    <form>
+      <FillMode>Alternate</FillMode>
+    </form>
+    <plot>true</plot>
+  </geber>
+  <signals>
+    <Signal name="Referenz Sensor" id="4">
+      <rule>between</rule>
+      <value>10000</value>
+      <value2>10100</value2>
+      <isTriggered>false</isTriggered>
+    </Signal>
+  </signals>
+</Achse>
+
+
+</Achsen>
+</Achsen>
